@@ -5,35 +5,228 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.container {
-    width: 100%;
-    height: 50vh;
+
+.x {
+    position: absolute;
+    left: 50%;
+    margin-left: -95px;
+    animation: rotation 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.nav-logo {
+    position: relative;
+}
+.nav-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    margin-top: 100px;
 }
 
-.logo {
-    width: 300px;
-    height: 300px;
-    background-size: cover;
-}
-.logo img {
-    width: 300px;
-    height: 300px;
-}
-
-.text {
+.nav-icons {
     display: flex;
-    font-size: .8rem;
+    justify-content: center;
+
 }
 
-.icon {
-    color: grey;
-    margin-right: 5px;
+.nav-icons a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
 }
 
-.text p {
-    color: grey;
+.nav-links {
+    width: 720px;
+    display: flex;
+    justify-content: space-evenly;
 }
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 25px;
+    margin-top: 25px;
+}
+
+.nav-links a:hover {
+    font-weight: bold;
+}
+
+
+/* MAIN */
+
+section {
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    /* margin: 10px; */
+}
+
+    /* SERVICES */
+
+.services-container {
+    width: 80%;
+    height: auto;
+    padding: 50px;
+    background-color: #4080ee;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-types {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.service {
+    margin: 50px;
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    color: #4080ee;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service:hover {
+    scale: 1.2;
+    transition: .2s ease-in-out;
+}
+
+.service-icon {
+    font-size: 5rem;
+}
+
+.service-icon img {
+    width: 85px;
+}
+
+/* OUR WORK */
+
+.ourwork-container {
+    width: 80%;
+    height: auto;
+    padding: 50px;
+    background-color: #33a554;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work-types {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.work {
+    margin: 50px;
+    height: 800px;
+    width: 800px;
+    background-color: white;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 2px 2px 15px black;
+}
+
+
+.work-type1 {
+    background-image: url(work1.png);
+    background-size: cover;
+
+}
+
+/* FOOTER */
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #333;
+    height: 150px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.footer-box {
+    width: 79%;
+    background-color: #999;
+    /* color: #111; */
+    padding: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    /* position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -100px; */
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-icons a {
+    text-decoration: none;
+    color: #333;
+    
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    color: #333;
+    justify-content: space-between;
+}
+
+.footer-contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-contact h3 {
+    margin-left: 20px;
+}
+
