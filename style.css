@@ -158,14 +158,39 @@ section {
     width: 85px;
 }
 
+/* GRAPHICS SECTION */
+
+.graphics-container {
+    width: 80%;
+    height: auto;
+    padding: 50px;
+    background-color: #e44432;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* SOCIAL MEDIA SERVICES SECTION */
+
+.socialmedia-container {
+    width: 80%;
+    height: auto;
+    padding: 50px;
+    background-color: #33a554;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* OUR WORK */
 
 .ourwork-container {
     width: 80%;
     height: auto;
     padding: 50px;
-    /* margin-bottom: 50px; */
-    background-color: #33a554;
+    background-color: #f1b708;
     color: white;
     display: flex;
     flex-direction: column;
@@ -219,9 +244,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     display: flex;
     justify-content: center;
     color: white;
-    background-color: #e44432;
+    background-color: #4080ee;
     height: 150px;
-    /* margin-top: 50px; */
     padding: 10px;
 }
 
@@ -253,7 +277,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 
 .footer-links a {
     text-decoration: none;
-    color: #333;
+    color: #777;
 }
 
 .footer-icons {
@@ -264,20 +288,20 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 
 .footer-icons a {
     text-decoration: none;
-    color: #333;
+    color: #777;
     
 }
 
 .footer-contact {
     display: flex;
     flex-direction: column;
-    color: #333;
+    color: #777;
     /* font-weight: bold; */
     justify-content: space-between;
 }
 
 .footer-contact a {
-    color: #333;
+    color: #777;
     text-decoration: none;
 }
 
