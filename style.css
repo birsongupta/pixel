@@ -65,7 +65,6 @@ html {
 
 .nav-icons a {
     text-decoration: none;
-    /* color: #333; */
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 50px;
@@ -224,6 +223,7 @@ section {
 }
 .ourwork-heading {
     padding-bottom: 25px;
+    text-align: center;
 }
 .work-types {
     display: flex;
@@ -231,6 +231,7 @@ section {
     background-color: white;
     flex-wrap: wrap;
     width: 95%;
+    margin-bottom: 50px;
 }
 .work-types div {
     text-align: center;
@@ -263,14 +264,59 @@ section {
 
 .work-type2 {
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 .work-type3 {
     background-image: url(work3.png);
 }
 
+/* LOGO SECTION */
+
+.logo-designs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo-designs {
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    border: 1px solid #555;
+    background-size: cover;
+}
+
+.logo1 {
+    background-image: url(logo1.png);
+}
+.logo2 {
+    background-image: url(logo2.png);
+}
+.logo3 {
+    background-image: url(logo3.png);
+}
+.logo4 {
+    background-image: url(logo4.png);
+}
+.logo5 {
+    background-image: url(logo5.png);
+}
+.logo6 {
+    background-image: url(logo6.png);
+}
+.logo7 {
+    background-image: url(logo7.png);
+}
+.logo8 {
+    background-image: url(logo8.png);
+}
+.logo9 {
+    background-image: url(logo9.png);
+}
+
 
 /* FOOTER */
+
+
 
 .footer-container {
     display: flex;
@@ -284,13 +330,13 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 .footer-box {
     width: 79%;
     background-color: rgb(238, 238, 238);
-    /* color: #111; */
     padding: 50px;
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .footer-box img {
     width: 250px;
 }
@@ -328,7 +374,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
     display: flex;
     flex-direction: column;
     color: #777;
-    /* font-weight: bold; */
     justify-content: space-between;
 }
 
@@ -358,7 +403,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
         }
         
         .nav-container {
-            width: 100vw;
+            width: 100%;
             height: auto;
             margin-top: 50px;
         }  
@@ -376,7 +421,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
         }
 
         .nav-links {
-            width: 100vw;
+            width: 100%;
             justify-content: space-evenly;
             margin-top: 50px;
         }
@@ -394,7 +439,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
         
         main {
             margin-top: 312px;
-            background-image: url(bg.png);
+            /* background-image: url(bg.png); */
         }
         
         section {
@@ -526,11 +571,18 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
             transition: .0s ease-in-out;
         }
         
+        /* logo section */
+        .logo-designs {
+            margin: 0px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
         
-        /* FOOTER */
+        /* FOOTER */               
         
         .footer-container {
-            height: 500px;
+            width: 100%;
+            height: auto;
             padding: 15px;
         }
         
